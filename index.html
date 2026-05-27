@@ -1,107 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1">
-
-<title>Angkhana Resume</title>
+<title>Angkhana | Senior Tech Resume</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 
+<style>
+
+body{
+background:#0b1120;
+color:#e2e8f0;
+font-family:Segoe UI,sans-serif;
+}
+
+.hero{
+padding:80px 0;
+}
+
+.glass{
+background:rgba(15,23,42,.75);
+backdrop-filter:blur(10px);
+border:1px solid rgba(255,255,255,.08);
+border-radius:24px;
+box-shadow:0 10px 30px rgba(0,0,0,.35);
+}
+
+.profile{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid #38bdf8;
+}
+
+.badge-skill{
+background:#1e293b;
+color:#38bdf8;
+padding:10px 16px;
+border-radius:30px;
+margin:5px;
+display:inline-block;
+}
+
+.project-card{
+background:#111827;
+border-radius:20px;
+padding:25px;
+height:100%;
+transition:.3s;
+}
+
+.project-card:hover{
+transform:translateY(-6px);
+}
+
+h1{
+font-weight:700;
+}
+
+.text-accent{
+color:#38bdf8;
+}
+
+.timeline{
+border-left:2px solid #38bdf8;
+padding-left:25px;
+}
+
+.timeline-item{
+margin-bottom:30px;
+}
+
+.btn-premium{
+background:#38bdf8;
+border:none;
+padding:12px 28px;
+border-radius:50px;
+font-weight:600;
+}
+
+.btn-premium:hover{
+background:#0ea5e9;
+}
+
+</style>
+
 </head>
 
-<body class="bg-light">
+<body>
 
-<div class="container py-5">
+<div class="container">
 
-<div class="row shadow-lg rounded overflow-hidden">
+<section class="hero">
 
-<div class="col-md-4 bg-dark text-white p-5">
+<div class="glass p-5">
 
-<h2>อังคณา จันทรวงศา</h2>
+<div class="row align-items-center">
 
-<p class="text-info">
-Senior PHP / Business System Developer
-</p>
+<div class="col-lg-3 text-center">
 
-<hr>
-
-<h5>Skills</h5>
-
-<ul>
-
-<li>PHP</li>
-
-<li>MySQL</li>
-
-<li>SQL</li>
-
-<li>Bootstrap</li>
-
-<li>WordPress</li>
-
-</ul>
+<img src="https://via.placeholder.com/150"
+class="profile">
 
 </div>
 
-<div class="col-md-8 bg-white p-5">
+<div class="col-lg-9">
 
-<h3>About Me</h3>
+<h1>อังคณา จันทรวงศา</h1>
 
-<p>
+<h4 class="text-accent">
 
-17+ years experience in PHP,
-MySQL, Reports,
-Custom Systems and Business Applications.
+Senior PHP / Business System Developer
+
+</h4>
+
+<p class="mt-4">
+
+17+ Years Experience in PHP, SQL,
+Business Systems, Reports,
+Custom Web Applications &
+Healthcare Related Systems.
 
 </p>
 
-<hr>
+<a href="#" class="btn btn-premium me-2">
 
-<h3>Projects</h3>
+Download CV
 
-<div class="mb-4">
+</a>
 
-<h5>🧪 Lab Reporting System</h5>
+<a href="#" class="btn btn-outline-info">
+
+GitHub
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="mb-5">
+
+<div class="glass p-5">
+
+<h2 class="mb-4 text-accent">
+
+About Me
+
+</h2>
+
+<p>
+
+Experienced developer specializing in
+PHP, MySQL, SQL and Custom Business Systems.
+
+Strong background in Reports,
+Accounting Systems,
+Lab Reporting,
+Condominium Reservation
+and Internal Workflow Applications.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="mb-5">
+
+<div class="glass p-5">
+
+<h2 class="text-accent mb-4">
+
+Core Skills
+
+</h2>
+
+<div>
+
+<span class="badge-skill">PHP</span>
+
+<span class="badge-skill">MySQL</span>
+
+<span class="badge-skill">SQL</span>
+
+<span class="badge-skill">Bootstrap</span>
+
+<span class="badge-skill">jQuery</span>
+
+<span class="badge-skill">WordPress</span>
+
+<span class="badge-skill">Custom Systems</span>
+
+<span class="badge-skill">Reports</span>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="mb-5">
+
+<h2 class="text-accent mb-4">
+
+Featured Projects
+
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-6">
+
+<div class="project-card">
+
+<h4>🧪 Lab Reporting System</h4>
 
 <p>
 
 Sample Management,
-Analysis,
-Report Generation
+Analysis Workflow,
+Result Reports,
+Healthcare Data Processing
 
 </p>
 
 </div>
 
-<div class="mb-4">
+</div>
 
-<h5>🏢 Accounting System</h5>
+<div class="col-md-6">
+
+<div class="project-card">
+
+<h4>🏢 Accounting System</h4>
 
 <p>
 
 Quotation,
 Invoice,
+Receipt,
 Payroll,
-Reports
+Financial Reports
 
 </p>
 
 </div>
 
-<div class="mb-4">
+</div>
 
-<h5>🏗 Condo Booking System</h5>
+<div class="col-md-6">
+
+<div class="project-card">
+
+<h4>🏗 Condo Booking System</h4>
 
 <p>
 
 Reservation,
+Contract,
 Receipt,
-Dashboard
+Dashboard,
+Reporting
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-6">
+
+<div class="project-card">
+
+<h4>📊 Cost Calculation System</h4>
+
+<p>
+
+Internal Business Tool,
+Pricing Workflow,
+Cost Analysis,
+Reporting
 
 </p>
 
@@ -111,8 +298,88 @@ Dashboard
 
 </div>
 
+</section>
+
+<section class="mb-5">
+
+<div class="glass p-5">
+
+<h2 class="text-accent mb-4">
+
+Experience Timeline
+
+</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+
+<h5>Programmer</h5>
+
+<p class="text-info">
+
+2025 – Present
+
+</p>
+
+<p>
+
+Internal Costing System,
+Business Workflow,
+Web Development
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h5>Senior Web / System Developer</h5>
+
+<p class="text-info">
+
+17+ Years Experience
+
+</p>
+
+<p>
+
+PHP, SQL,
+Reports,
+Business Applications,
+Custom Development
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="mb-5">
+
+<div class="glass p-5 text-center">
+
+<h2 class="text-accent">
+
+Let's Connect
+
+</h2>
+
+<p>
+
+Email • Phone • GitHub • Portfolio
+
+</p>
+
+</div>
+
+</section>
+
 </div>
 
 </body>
-
 </html>
